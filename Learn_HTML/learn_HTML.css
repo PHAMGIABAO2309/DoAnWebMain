@@ -14,9 +14,7 @@
     background-color: white;
     justify-content: space-around;
     height: 56px;
-    
 }
-
 .logo{
     padding: 10px 0px;
 }
@@ -24,30 +22,10 @@
     width: 38.5px; /* Thay đổi kích thước theo nhu cầu */
     height: 36px;
 }
-input[type="text"] {
-    padding: 8px;
-    font-size: 16px;
-    font-style: italic;/* font chữ nghiêng */
-    border: 1px solid #ccc;
-    border-radius: 40px;
-}
-#iconsearch {
-    padding: 10px 16px;
-    background-color: rgb(4, 170, 109);
-    color: white;
-    border: none;
-    border-radius: 40px;
-    cursor: pointer;
-}
-
-#iconsearch:hover {
-    background-color: #0056b3;
-}
 
 .general-menu ul {
     list-style: none;
     height: 56px;
-    
 }
 
 .general-menu ul li {
@@ -90,6 +68,30 @@ input[type="text"] {
 .general-icon-item h3 {
     font-size: 14px; /* Kích thước của tiêu đề */
 }
+
+
+/* Thanh tim kiem */
+input[type="text"] {
+    padding: 8px;
+    font-size: 10px;
+    font-style: italic;/* font chữ nghiêng */
+    border: 1px solid #ccc;
+    border-radius: 40px;
+}
+button {
+    padding: 10px 16px;
+    background-color: rgb(4, 170, 109);
+    color: white;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
 
 .login {
     padding: 10px;
@@ -199,10 +201,17 @@ nav a:nth-child(10):hover ~ span {
     left: calc(100% / 10 * 9);
 }
 
+
+
+body {
+    
+    margin: 0; /* Xóa margin mặc định của body */
+}
 #wrapper {
     width: 100%;
     height: 100%;
     overflow: 50px; /* Cho phép cuộn khi nội dung vượt quá kích thước của khu vực hiển thị */
+    margin: 0 auto; /* Căn giữa main theo chiều ngang */
 }
 
 #head {

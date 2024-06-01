@@ -233,7 +233,6 @@ body {
 }
 #main-content {
     margin-top: 75px;
-    display: flex;
 }
 #left {
   flex: 20;
