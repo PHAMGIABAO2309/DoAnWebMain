@@ -251,22 +251,24 @@ body {
 
 #content{
     flex: 60;
-    min-height: 5000px;
+    min-height: 2500px;
     border: 1px solid #CDCDCD;
     float:left;
     margin-left: 255px;
     margin-right: 5px;
     margin-bottom: 5px;
     margin-top: 10px;
+    border-bottom: 1px solid black;
 }
 #right{
     flex: 20;
-    min-height: 5000px;
+    min-height: 2500px;
     border: 1px solid #CDCDCD;
     float:right;
     margin-bottom: 5px;
     background: white;
     margin-top: 10px;
+    border-bottom: 1px solid black;
 }
 
 .rounded-image {

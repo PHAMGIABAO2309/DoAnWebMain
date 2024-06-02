@@ -243,7 +243,7 @@ body {
     background-color: #e3e1e1	;
     margin-bottom: 5px;
     margin-top: 85px;
-    position: fixed;
+    position: fixed; /* giữ cố định */
     top: 0; /* Đặt vị trí từ phía trên cùng của trình duyệt */
     left: 0;
 }
